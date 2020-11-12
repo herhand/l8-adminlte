@@ -1,5 +1,5 @@
-# Laravel 8 Passport
-Basic API based on Laravel 8 Passport
+# Laravel 8 AdminLTE
+Basic Laravel 8 with AdminLTE
 
 ## Source
 * https://cafeteria.id/2020/09/14/cara-integrasi-laravel-8-dengan-laravel-adminlte/
