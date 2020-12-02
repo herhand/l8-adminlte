@@ -8,9 +8,7 @@
 
 @section('content')
 <p>Hello {{ $user }}, plase scan qrcode anda</p>
-
 {!! DNS2D::getBarcodeHTML($user, 'QRCODE') !!}
-
 <p class="text-center text-primary"><small>by HerHand</small></p>
 @endsection
 
