@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'LTERoles8',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -251,6 +251,28 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
+        [
+            'text'    => 'ADMINS',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Manage Users',
+                    'url'  => 'users',
+                ],
+                [
+                    'text' => 'Manage Roles',
+                    'url'  => 'roles',
+                ],
+            ],
+        ],
+        ['header' => 'MASTER'],
+        [
+            'text' => 'Products',
+            'url'  => 'products',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+
+
     ],
     // 'menu' => [
     //     [
