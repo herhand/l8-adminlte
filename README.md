@@ -1,5 +1,5 @@
 # Laravel 8 AdminLTE
-Basic Laravel 8 with AdminLTE
+Basic Laravel 8 with AdminLTE & Permissions-Roles
 
 ## Source
 * https://cafeteria.id/2020/09/14/cara-integrasi-laravel-8-dengan-laravel-adminlte/
