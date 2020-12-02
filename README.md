@@ -3,6 +3,7 @@ Basic Laravel 8 with AdminLTE
 
 ## Source
 * https://cafeteria.id/2020/09/14/cara-integrasi-laravel-8-dengan-laravel-adminlte/
+* https://www.itsolutionstuff.com/post/laravel-8-user-roles-and-permissions-tutorialexample.html
 
 ## Installation Guide
     1)Clone Or Download The Repository
@@ -11,3 +12,7 @@ Basic Laravel 8 with AdminLTE
 
     2)Goto to project root and open a Terminal Enter Following Commands 
         * composer install
+        * php artisan key:generate
+        * php artisan db:seed --class=PermissionTableSeeder
+        * php artisan db:seed --class=CreateAdminUserSeeder
+        
