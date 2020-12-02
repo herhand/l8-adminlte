@@ -13,6 +13,7 @@ Basic Laravel 8 with AdminLTE & Permissions-Roles
     2)Goto to project root and open a Terminal Enter Following Commands 
         * composer install
         * php artisan key:generate
+        * php artisan migrate
         * php artisan db:seed --class=PermissionTableSeeder
         * php artisan db:seed --class=CreateAdminUserSeeder
         
