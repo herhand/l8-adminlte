@@ -253,7 +253,7 @@ return [
         ],
         [
             'text'    => 'ADMINS',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'fas fa-user-cog',
             'submenu' => [
                 [
                     'text' => 'Manage Users',
@@ -269,10 +269,14 @@ return [
         [
             'text' => 'Products',
             'url'  => 'products',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-archive',
         ],
-
-
+        ['header' => 'QR-Code'],
+        [
+            'text' => 'Generate',
+            'url'  => 'qrcode',
+            'icon' => 'fas fa-qrcode',
+        ],
     ],
     // 'menu' => [
     //     [
