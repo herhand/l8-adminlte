@@ -56,6 +56,21 @@
             @endif
         </div>
 
+        <div class="form-group">
+            <div class="form-group refereshrecapcha">
+                {!! captcha_img('math') !!}
+            </div>
+            <a href="javascript:void(0)" onclick="refreshCaptcha()">Refresh Captcha</a>
+            <input id="captcha" class="form-control" type="text" name="captcha" data-validation="required">
+
+            @error('captcha')
+            <div class="text-danger">
+                <small>{{ $message }}</small>
+            </div>
+            @enderror
+        </div>
+
+
         {{-- Login field --}}
         <div class="row">
             <div class="col-7">
